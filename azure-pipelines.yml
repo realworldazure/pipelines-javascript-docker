@@ -1,8 +1,8 @@
 trigger:
 - main
 
-pool:
-  vmImage: 'Windows10Agent' # set to windows-latest or another Windows vmImage for Windows builds
+pool: Default
+ ## vmImage: 'Windows10Agent' # set to windows-latest or another Windows vmImage for Windows builds
 
 variables:
   imageName: 'pipelines-javascript-docker'
